@@ -2,7 +2,7 @@
 pkgname='otf-monaspice-huhanme-nerd-font'
 pkgver=1.400
 pkgrel=1
-pkgdesc="GitHub's Monaspace, with the Humanist, Handwriting and Mechanical variants for the normal, italic (& bold italic), and bold variants, patched with nerd font glyphs on top"
+pkgdesc="GitHub's Monaspace with different subfamilies for the normal, italic, and bold (& bold italic) variants"
 arch=('any')
 url='https://github.com/aaronliu0130/monaspice'
 license=('OFL-1.1-RFN')
