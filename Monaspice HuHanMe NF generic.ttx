@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="4.62">
+
+  <name>
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Monaspice HuHanMe NF $p
+    </namerecord>
+    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      $w $s
+    </namerecord>
+    <namerecord nameID="7" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Copyright 2023 GitHub, Inc. (https://github.com/githubnext/monaspace), with Reserved Font Names 'Monaspace', 'Monaspace Argon', 'Monaspace Neon', 'Monaspace Xenon', 'Monaspace Radon', and 'Monaspace Krypton'.
+    </namerecord>
+    <namerecord nameID="8" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Lettermatic
+    </namerecord>
+    <namerecord nameID="9" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Riley Cran &amp; the Lettermatic Team
+    </namerecord>
+    <namerecord nameID="11" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      https://lettermatic.com
+    </namerecord>
+    <namerecord nameID="12" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      https://lettermatic.com
+    </namerecord>
+    <namerecord nameID="13" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      SIL Open Font License 1.1 https://github.com/githubnext/Monaspice/blob/main/LICENSE
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Monaspice HuHanMe NF $p
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      $w $s
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      $v;UKWN;MonaspiceHuHanMeNF-$p$s
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      Monaspice HuHanMe NF $p $s
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version $v (Monaspice HuHanMe NF)
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      MonaspiceHuHanMeNF-$p$s
+    </namerecord>
+    <namerecord nameID="7" platformID="3" platEncID="1" langID="0x409">
+      Copyright 2023 GitHub, Inc. (https://github.com/githubnext/monaspace), with Reserved Font Names 'Monaspace', 'Monaspace Argon', 'Monaspace Neon', 'Monaspace Xenon', 'Monaspace Radon', and 'Monaspace Krypton'.
+    </namerecord>
+    <namerecord nameID="8" platformID="3" platEncID="1" langID="0x409">
+      Lettermatic
+    </namerecord>
+    <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
+      Riley Cran &amp; the Lettermatic Team
+    </namerecord>
+    <namerecord nameID="11" platformID="3" platEncID="1" langID="0x409">
+      https://lettermatic.com
+    </namerecord>
+    <namerecord nameID="12" platformID="3" platEncID="1" langID="0x409">
+      https://lettermatic.com
+    </namerecord>
+    <namerecord nameID="13" platformID="3" platEncID="1" langID="0x409">
+      SIL Open Font License 1.1 https://github.com/githubnext/Monaspice/blob/main/LICENSE
+    </namerecord>
+    <namerecord nameID="16" platformID="3" platEncID="1" langID="0x409">
+      Monaspice HuHanMe NF
+    </namerecord>
+    <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
+      $p $s
+    </namerecord>
+    <namerecord nameID="18" platformID="3" platEncID="1" langID="0x409">
+      Monaspice HuHanMe NF $p $s
+    </namerecord>
+    <namerecord nameID="19" platformID="3" platEncID="1" langID="0x409">
+      printf("Hello, Monaspice HuHanMe NF!")
+    </namerecord>
+    <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
+      SS01: Equal Symbols
+    </namerecord>
+    <namerecord nameID="257" platformID="3" platEncID="1" langID="0x409">
+      SS02: Comparisons
+    </namerecord>
+    <namerecord nameID="258" platformID="3" platEncID="1" langID="0x409">
+      SS03: Arrows
+    </namerecord>
+    <namerecord nameID="259" platformID="3" platEncID="1" langID="0x409">
+      SS04: HTML Tags
+    </namerecord>
+    <namerecord nameID="260" platformID="3" platEncID="1" langID="0x409">
+      SS05: F# Shapes
+    </namerecord>
+    <namerecord nameID="261" platformID="3" platEncID="1" langID="0x409">
+      SS06: Markdown Strings
+    </namerecord>
+    <namerecord nameID="262" platformID="3" platEncID="1" langID="0x409">
+      SS07: Centered Colon
+    </namerecord>
+    <namerecord nameID="263" platformID="3" platEncID="1" langID="0x409">
+      SS08: Centered Period
+    </namerecord>
+    <namerecord nameID="264" platformID="3" platEncID="1" langID="0x409">
+      SS09: Double Arrows
+    </namerecord>
+    <namerecord nameID="265" platformID="3" platEncID="1" langID="0x409">
+      SS10: Other Tags
+    </namerecord>
+  </name>
+
+</ttFont>
