@@ -3,10 +3,19 @@
 
   <name>
     <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Monaspice HuHanMe NF $p
+      Monaspice HuHanMe NF $np
     </namerecord>
     <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      $w $s
+      $gw $s
+    </namerecord>
+    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Monaspice HuHanMe NF $gp $s
+    </namerecord>
+    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Version $v (Monaspice HuHanMe NF)
+    </namerecord>
+    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      MonaspiceHuHanMeNF-$gp$s
     </namerecord>
     <namerecord nameID="7" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Copyright 2023 GitHub, Inc. (https://github.com/githubnext/monaspace), with Reserved Font Names 'Monaspace', 'Monaspace Argon', 'Monaspace Neon', 'Monaspace Xenon', 'Monaspace Radon', and 'Monaspace Krypton'.
@@ -27,22 +36,22 @@
       SIL Open Font License 1.1 https://github.com/githubnext/Monaspice/blob/main/LICENSE
     </namerecord>
     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
-      Monaspice HuHanMe NF $p
+      Monaspice HuHanMe NF $gp
     </namerecord>
     <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
-      $w $s
+      $gw $s
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      $v;UKWN;MonaspiceHuHanMeNF-$p$s
+      $v;UKWN;MonaspiceHuHanMeNF-$gp$s
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
-      Monaspice HuHanMe NF $p $s
+      Monaspice HuHanMe NF $gp $s
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
       Version $v (Monaspice HuHanMe NF)
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
-      MonaspiceHuHanMeNF-$p$s
+      MonaspiceHuHanMeNF-$gp$s
     </namerecord>
     <namerecord nameID="7" platformID="3" platEncID="1" langID="0x409">
       Copyright 2023 GitHub, Inc. (https://github.com/githubnext/monaspace), with Reserved Font Names 'Monaspace', 'Monaspace Argon', 'Monaspace Neon', 'Monaspace Xenon', 'Monaspace Radon', and 'Monaspace Krypton'.
@@ -66,10 +75,10 @@
       Monaspice HuHanMe NF
     </namerecord>
     <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
-      $p $s
+      $gp $s
     </namerecord>
     <namerecord nameID="18" platformID="3" platEncID="1" langID="0x409">
-      Monaspice HuHanMe NF $p $s
+      Monaspice HuHanMe NF $gp $s
     </namerecord>
     <namerecord nameID="19" platformID="3" platEncID="1" langID="0x409">
       printf("Hello, Monaspice HuHanMe NF!")

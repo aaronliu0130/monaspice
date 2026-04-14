@@ -1,7 +1,7 @@
 # Maintainer: aliu <aaronliu0130@gm il.com>
 pkgname='otf-monaspice-huhanme-nerd-font'
 pkgver=1.400
-pkgrel=1
+pkgrel=2
 pkgdesc="GitHub's Monaspace with different subfamilies for the normal, italic, and bold (& bold italic) variants"
 arch=('any')
 url='https://github.com/aaronliu0130/monaspice'
@@ -13,25 +13,32 @@ source=("https://github.com/githubnext/monaspace/releases/download/v$pkgver/mona
 	'Monaspice HuHanMe NF generic.ttx')
 sha256sums=('9b7f9505d977601d8819dfdb57fa4b49bdab61132b6d1131c2e8d092066edc5a'
 	'0e84e5f7dd6f05e74a00f2fb828ca43e489d954f5509ff0fa439ea18c0d35fe9'
-	'8b64a7f467709300864cb4a14d15a9a8864bcfd067e8021d4f5ae57324a21a20')
+	'c1184c6995d51f08da11928f1bc7469f00ad73ca4de7360cdf602e73aa90e2d6')
 
 _patch() {
 	local name="$1";local weight="$2";local pref_weight="$3";local style="$4"
 
-	local style_replacement='s/$s/'"$pref_weight"'/'
-	local filename_weight="${pref_weight}"
+	local style_replacement="s/\$s/$style/"
+	local name_pref_weight="${pref_weight}"
+	local name_pref_weight_replacement="s/\$np/$name_pref_weight/"
+	local going_replacement="s/\$gw/$weight/; s/\$gp/$pref_weight/"
 	if [[ -z $style ]]; then
-		style_replacement='s/ $s/ /'
+		style_replacement="s/ \$s/ /; s/\$s//"
 	elif [[ $pref_weight == 'Regular' ]]; then
-		filename_weight=''
+		name_pref_weight=''
+		name_pref_weight_replacement="s/ \$np//"
+		going_replacement="s/ \$gw//; s/ \$gp//; s/\$gp//"
+	elif [[ $weight == 'Regular' ]]; then
+		going_replacement="s/ \$gw//; s/\$gp/$pref_weight/"
 	fi
 	sed "${srcdir}/hhm_ver.ttx" \
-		-e 's/$w/'"$weight"'/' \
-		-e 's/$p/'"$pref_weight"'/' \
-		-e "$style_replacement" \
+		-e "s/\$w/$weight/; \
+		s/\$p/$pref_weight/; \
+		$name_pref_weight_replacement; $going_replacement; \
+		$style_replacement" \
 		> "${srcdir}/hhm_patch.ttx"
-	ttx "${srcdir}/hhm_patch.ttx" -m "${srcdir}/NerdFonts/Monaspace ${name}/Monaspace${name}NF-${filename_weight}${style}.otf" \
-		-o "${srcdir}/MonaspiceHuHanMeNF-${filename_weight}${style}.otf"
+	ttx "${srcdir}/hhm_patch.ttx" -m "${srcdir}/NerdFonts/Monaspace ${name}/Monaspace${name}NF-${name_pref_weight}${style}.otf" \
+	-o "${srcdir}/MonaspiceHuHanMeNF-${name_pref_weight}${style}.otf"
 }
 
 prepare() {
